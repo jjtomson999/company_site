@@ -16,7 +16,7 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  min-height: 100vh;
+  height: 100vh;
 }
 
 header{
@@ -335,11 +335,32 @@ body{
   animation-iteration-count: 1;
 
 }
-@keyframes loading{
+#loading{
+  background-color: rgb(170, 227, 170);
+  position: fixed;
+  inset: 0;
+  display:grid;
+  z-index: 300;
+  place-items: center;
+  
+}
+#loading p{
+  font-size: 18px;
+
+}
+#loading-screen{
+  background: gray;
+  position: fixed;
+  inset: 0;
+  z-index: 290;
+  translate: 0 100vh;
+}
+
+/* @keyframes loading{
  0%{
    opacity: 0;
  }
  100%{
   opacity: 1;
  }
-}
+} */
