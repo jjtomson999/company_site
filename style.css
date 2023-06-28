@@ -21,7 +21,7 @@ body{
 
 header{
   height: 85px;
-  background-color: rgb(237, 245, 245);
+  background-color: rgb(130, 232, 232);
   display:flex;
   align-items: center;
   width: 100%;
@@ -44,7 +44,7 @@ header h1 img{
 ul.menu_container{
   display: flex;
   justify-content:space-around;
-  margin-left: 32px;
+  /* margin-left: 32px; */
 }
 ul.menu_container li:nth-child(1){
   margin-left: 32px;
@@ -94,22 +94,23 @@ ul.menu_container li a{
 }
 /* headerここまで */
 .container{
-  padding: 0 20px;
+  padding: 0 10px;
 }
 /* main */
 main{
-  width: 86%;
+  width: 100%;
 }
 
 div.owner{
 display: flex;
 align-items: center;
 gap: 10px;
+background-color: rgba(218, 231, 218, 0.933);
 }
 #mainvisual{
 height: 100%;
 width: 100%;
-
+background-color: #efee;
 }
 #mainvisual img{
   width: 100%;
@@ -117,11 +118,11 @@ width: 100%;
 }
 div.message{
   line-height: 3rem;
+  text-align: center;
 }
 div.message h1{
 text-align: center;
 margin: 0 auto;
-
 border-bottom: 2px solid red;
 }
 div.message p{
@@ -188,6 +189,11 @@ align-items: center;
 letter-spacing: 1.89;
 }
 
+.about-content{
+  background: #ece3e3;
+  width: 100%;
+  margin: 0 auto;
+}
 
 .about-content ul{
   display: flex;
@@ -262,6 +268,10 @@ height: auto;
   width: 50%;
   margin: 0 auto 30px auto;
   background:linear-gradient(skyblue, rgb(116, 116, 142));
+  font-family: 'Bangers', cursive;
+  font-family: 'Martian Mono', monospace;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  border-radius: 24px;
 }
 .bussiness_cont{
   display: flex;
@@ -272,6 +282,7 @@ height: auto;
 .voice{
   width: 400px;
   line-height: 2;
+ 
 }
 #business img{
   max-width: 70%;
